@@ -1,0 +1,12 @@
+ .topNav{
+     width: 100%;
+     padding: 10px;
+     color: white;
+     letter-spacing: 8px;
+     background-color: rgb(133, 25, 235);
+ }
+
+ h2{
+     text-align: center;
+     cursor: pointer;
+ }

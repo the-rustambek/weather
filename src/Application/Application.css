@@ -1,0 +1,41 @@
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+.search > input{
+    width: 40%;
+    border: none;
+padding: 12px;
+    border-bottom: 2px solid #d6d6d6;
+}
+.search > input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #d6d6d6;
+}
+.city{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px blueviolet;
+    padding: 20px;
+   
+    border-radius: 20px;
+    margin: 5% auto;
+    text-align: center;
+}
+.details{
+    margin-top: 15px;
+}
+.details > .city-name{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.details > .city-temp{
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
